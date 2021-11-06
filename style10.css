@@ -1,0 +1,151 @@
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    html,
+    body {
+        width: 100%;
+        height: 100%;
+    }
+    
+    #bg {
+        height: 100%;
+        width: 100%;
+        background-color: rgba(126, 123, 123, 0.863);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    #login {
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        background-color: rgba(252, 250, 250, 0.616);
+        transition: cubic-bezier(0.19, 1, 0.22, 1);
+    }
+    
+    #signup {
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        background-color: rgba(252, 250, 250, 0.616);
+        left: 300px;
+        transition: cubic-bezier(0.19, 1, 0.22, 1);
+    }
+    
+    #circle1 {
+        width: 110px;
+        height: 110px;
+        border-radius: 50%;
+        background-image: url(https://i.pinimg.com/236x/f3/2b/52/f32b52417a60bd04f03121670afa248a.jpg);
+        background-position: center;
+        background-size: cover;
+        margin-top: 18px;
+        margin-left: 33%;
+    }
+    
+    #circle2 {
+        width: 110px;
+        height: 110px;
+        border-radius: 50%;
+        background-image: url(https://c4.wallpaperflare.com/wallpaper/64/125/92/pokemon-pokemon-detective-pikachu-pikachu-hd-wallpaper-preview.jpg);
+        background-position: left;
+        background-size: cover;
+        margin-top: 18px;
+        margin-left: 33%;
+    }
+    
+    #content1 {
+        padding: 5px 20px 5px 20px;
+        opacity: .7;
+        font-weight: -5px;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+    
+    #content2 {
+        padding: 5px 20px 5px 20px;
+        opacity: .7;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+    
+    #email {
+        height: 30px;
+        width: 230px;
+        border-radius: 15px;
+        border-color: rgba(248, 246, 246, 0.671);
+        border-width: 1px;
+        margin-top: 4px;
+        margin-bottom: 5px;
+        box-shadow: grey;
+    }
+    
+    #pass {
+        height: 30px;
+        width: 230px;
+        border-color: rgba(248, 246, 246, 0.671);
+        border-width: 1px;
+        border-radius: 15px;
+        margin-top: 4px;
+    }
+    
+    #a {
+        font-size: 10px;
+        margin-left: 69px;
+        margin-top: 10px;
+    }
+    
+    #continue {
+        width: 230px;
+        height: 35px;
+        background-color: rgba(255, 219, 15, 0.993);
+        color: white;
+        border-radius: 15px;
+        padding: 10px;
+        margin-top: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-color: rgb(248, 99, 0);
+        border-width: 20px;
+    }
+    
+    #continue>h5 {
+        letter-spacing: 6px;
+        font-size: 15px;
+        font-weight: 7px;
+    }
+    
+    #next {
+        width: 170px;
+        height: 20px;
+        margin-top: 12px;
+        margin-left: 40px;
+        color: black;
+    }
+    
+    #submit {
+        width: 110px;
+        height: 23px;
+        margin-left: 70px;
+        margin-top: 12px;
+        background-color: rgba(255, 219, 15, 0.993);
+        color: white;
+        border-radius: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        letter-spacing: 3px;
+    }
+    
+    #wrapper {
+        height: 450px;
+        width: 300px;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        overflow: hidden;
+    }
